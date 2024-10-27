@@ -1,0 +1,14 @@
+This project is designed to facilitate translation between Arabic and English, supporting multilingual functionality for the application. 
+
+The app uses manual translation, which requires you to input each word in both language files: `en.json` for English and `ar.json` for Arabic. 
+
+Please note that the localization services should remain untouched. To access these translations within the app, you can use the following syntax: `'AppLocalizations.of(context)!.'`.
+
+The packages used are: 
+flutter_localizations:
+    sdk: flutter
+
+The assets related are: 
+ assets:
+    - assets/lang/ar.json
+    - assets/lang/en.json
